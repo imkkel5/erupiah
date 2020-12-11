@@ -37,7 +37,7 @@
             <span class="icon-bar"></span>
           </button>
           <a class="navbar-brand" href="./index.php" title="">
-            <img src="./assets/images/mashup-icon.svg" class="navbar-logo-img" alt="">
+            <img src="../../assets/img/icons/LOGO2.png" height="80" class="navbar-logo-img" alt="">
             E-Rupiah
           </a>
         </div>
@@ -63,10 +63,16 @@
     <div class="container">
       <div class="row">
         <div class="col-xs-12">
-          <h1>Mountain</h1>
-          <p>WELCOME TO MOUNTAIN WEBSITE. AGENCY IN BERLIN.</p>
+          <h1>Rp. 1,000,000</h1>
+          <p>SILAKAN TRANSAKSI MELAUI MENU DI BAWAH.</p>
           <br>
-          <a href="./project.php" class="btn btn-default btn-lg" title="">Discover</a>
+          <a href="./project.php" class="btn btn-info btn-lg" title="">Top Up</a>
+          <a href="./project.php" class="btn btn-info btn-lg" title="">Transfer</a>
+          <a href="./project.php" class="btn btn-info btn-lg" title="">History</a>
+          <a href="./project.php" class="btn btn-info btn-lg" title="">PLN</a>
+          <a href="./project.php" class="btn btn-info btn-lg" title="">Pulsa</a>
+          <a href="./project.php" class="btn btn-info btn-lg" title="">BPJS</a>
+          <a href="./project.php" class="btn btn-info btn-lg" title="">Voucher Game</a>
         </div>
       </div>
     </div>
@@ -311,39 +317,7 @@
     });
   </script>
 
-  <footer class="footer-container white-text-container">
-    <div class="container">
-      <div class="row">
-
-
-        <div class="col-xs-12">
-          <h3>Mountain</h3>
-
-          <div class="row">
-            <div class="col-xs-12 col-sm-7">
-              <p><small>Website created with <a href="http://www.mashup-template.com/" title="Create website with free html template">Mashup Template</a>/<a href="https://www.unsplash.com/" title="Beautiful Free Images">Unsplash</a></small>
-              </p>
-            </div>
-            <div class="col-xs-12 col-sm-5">
-              <p class="text-right">
-                <a href="https://facebook.com/" class="social-round-icon white-round-icon fa-icon" title="">
-                  <i class="fa fa-facebook" aria-hidden="true"></i>
-                </a>
-                <a href="https://twitter.com/" class="social-round-icon white-round-icon fa-icon" title="">
-                  <i class="fa fa-twitter" aria-hidden="true"></i>
-                </a>
-                <a href="https://www.linkedin.com/" class="social-round-icon white-round-icon fa-icon" title="">
-                  <i class="fa fa-linkedin" aria-hidden="true"></i>
-                </a>
-              </p>
-            </div>
-          </div>
-
-
-        </div>
-      </div>
-    </div>
-  </footer>
+  <?php include "footer.php" ?>
 
   <script>
     document.addEventListener("DOMContentLoaded", function(event) {
