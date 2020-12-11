@@ -29,113 +29,86 @@
   </div>
 </div>
 
-<div class="page-section pt-5">
+<div class="page-section bg-light">
   <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-lg-8">
-        <div class="card-page">
-          <h5 class="fg-primary">Tentang E-Rupiah</h5>
-          <hr>
-          <p>E-Rupiah Adalah Website dengan pilihan yang di tawarkan E-Rupiah Adalah Website dengan pilihan yang di tawarkan E-Rupiah Adalah Website dengan pilihan yang di tawarkan E-Rupiah Adalah Website dengan pilihan yang E-Rupiah Adalah Website dengan pilihan yang di tawarkan yang pastinya akan E-Rupiah Adalah Website dengan  </p>
-          <p>E-Rupiah Adalah Website dengan pilihan yang di tawarkan E-Rupiah Adalah Website dengan pilihan yang di tawarkan E-Rupiah Adalah Website dengan pilihan yang di tawarkan E-Rupiah Adalah Website dengan pilihan yang di tawarkan E-Rupiah Adalah Website dengan pilihan 
-          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor</p>
+    <div class="row justify-content-center align-items-center">
+      <div class="col-lg-5 py-3 wow fadeInUp">
+        <h2 class="mb-4">tim <br> customer support</h2>
+        <p>kunjungi sosial media dan email kami untuk mengajukan pertanyaan dan melaporkan apapun kesuliatan serta gangguan pada web kami. kritik dan saran merupakan bagian supprot pengguna untuk kami. </p>
 
-          <!-- Video -->
-          <div class="text-center py-5">
-            <embed class="embed-video" src="https://www.youtube.com/embed/13MFxBVWrrA?list=PLl-K7zZEsYLmnJ_FpMOZgyg6XcIGBu2OX">
-          </div>
-          
-
-          <p>E-Rupiah Adalah Website dengan pilihan yang di tawarkan E-Rupiah Adalah Website dengan pilihan yang di tawarkan E-Rupiah Adalah Website dengan pilihan yang di tawarkan E-Rupiah Adalah Website dengan pilihan yang di tawarkan E-Rupiah Adalah Website dengan pilihan.</p>
-        </div>
-        <div class="card-page mt-3">
-          <h5 class="fg-primary">Para Pengembang Kami</h5>
-          <hr>
-
-          <div class="row justify-content-center">
-            <div class="col-lg-3 py-3">
-              <div class="team-item">
-                <div class="team-avatar">
-                  <img src="../assets/img/person/e-alfin.jfif" alt="">
-                </div>
-                <h5 class="team-name">Utok</h5>
-                <span class="fg-gray fs-small">CEO</span>
-              </div>
-            </div>
-            <div class="col-lg-3 py-3">
-              <div class="team-item">
-                <div class="team-avatar">
-                  <img src="../assets/img/person/e-ayu.jfif" alt="">
-                </div>
-                <h5 class="team-name">Ayu</h5>
-                <span class="fg-gray fs-small">UI/UX Designer</span>
-              </div>
-            </div>
-            <div class="col-lg-3 py-3">
-              <div class="team-item">
-                <div class="team-avatar">
-                  <img src="../assets/img/person/e-fiqri.jfif" alt="">
-                </div>
-                
-                <h5 class="team-name">Aziz</h5>
-                <span class="fg-gray fs-small">Product Manager</span>
-              </div>
-            </div>
-            
-          </div>
-        </div>
         
-        <div class="card-page mt-3">
-          <h5 class="fg-primary">Partners</h5>
-          <hr>
-
-          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-5 justify-content-center align-items-center mt-5">
-            <div class="p-3">
-              <div class="img-place client-img">
-                <img src="../assets/img/clients/alter_sport.png" alt="">
-              </div>
+        </a>
+      </div>
+      <div class="col-lg-7 py-3 no-scroll-x">
+        <div class="accordion accordion-gap" id="accordionFAQ">
+          <div class="accordion-item wow fadeInRight">
+            <div class="accordion-trigger" id="headingFour">
+              <button class="btn collapsed" type="button" data-toggle="collapse" data-target="#collapse1" aria-expanded="false" aria-controls="collapse1">laporkan penyalahgunaan</button>
             </div>
-            <div class="p-3">
-              <div class="img-place client-img">
-                <img src="../assets/img/clients/cleaning_service.png" alt="">
-              </div>
-            </div>
-            <div class="p-3">
-              <div class="img-place client-img">
-                <img src="../assets/img/clients/creative_photo.png" alt="">
-              </div>
-            </div>
-            <div class="p-3">
-              <div class="img-place client-img">
-                <img src="../assets/img/clients/global_tv.png" alt="">
-              </div>
-            </div>
-            <div class="p-3">
-              <div class="img-place client-img">
-                <img src="../assets/img/clients/net_sport_tv.png" alt="">
-              </div>
-            </div>
-            <div class="p-3">
-              <div class="img-place client-img">
-                <img src="../assets/img/clients/news_digital_tv.png" alt="">
-              </div>
-            </div>
-            <div class="p-3">
-              <div class="img-place client-img">
-                <img src="../assets/img/clients/spa_beauty.png" alt="">
-              </div>
-            </div>
-            <div class="p-3">
-              <div class="img-place client-img">
-                <img src="../assets/img/clients/trivier_group.png" alt="">
+            <div id="collapse1" class="collapse" aria-labelledby="headingFour" data-parent="#accordionFAQ">
+              <div class="accordion-content">
+                <p>anda dapat melaporkan penyalahgunaan acount dan lainya pada:</p>
+                <ul>
+                  <li> akun email kami erupiahcompany@outlook.com</li>
+                  <li>atau sosial media lainnya milik kami, bisa klik di bagian footer website kami</li>
+                </ul>
               </div>
             </div>
           </div>
+          <div class="accordion-item wow fadeInRight">
+            <div class="accordion-trigger" id="headingFive">
+              <button class="btn" type="button" data-toggle="collapse" data-target="#collapse2" aria-expanded="true" aria-controls="collapse2">tidak dapat melihat saldo anda</button>
+            </div>
+            <div id="collapse2" class="collapse show" aria-labelledby="headingFive" data-parent="#accordionFAQ">
+              <div class="accordion-content">
+                <p>silahkan isi saldo terlebih dahullu lalu pergi ke halaman member</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item wow fadeInRight">
+            <div class="accordion-trigger" id="headingSix">
+              <button class="btn collapsed" type="button" data-toggle="collapse" data-target="#collapse3" aria-expanded="false" aria-controls="collapse3">transaksi anda tidak berhasil</button>
+            </div>
+            <div id="collapse3" class="collapse" aria-labelledby="headingSix" data-parent="#accordionFAQ">
+              <div class="accordion-content">
+                <p>jika anda menemukan hal seperti ini, maka ulangi transaksi anda dan pastikan data yang anda masukkan telah sesuai</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item wow fadeInRight">
+            <div class="accordion-trigger" id="headingSeven">
+              <button class="btn collapsed" type="button" data-toggle="collapse" data-target="#collapse4" aria-expanded="false" aria-controls="collapse4">top up tidak bisa dilakukan</button>
+            </div>
+            <div id="collapse4" class="collapse" aria-labelledby="headingSeven" data-parent="#accordionFAQ">
+              <div class="accordion-content">
+              <p>jika anda menemukan hal seperti itu maka periksa kembali metode top up anda. metode top up yang dapat dipakai andalah:</p>
+                <ul>
+                  <li>atm mandiri</li>
+                  <li>atm bca</li>
+                  <li>atm bri</li>
+                  <li>indomart</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item wow fadeInRight">
+            <div class="accordion-trigger" id="headingNine">
+              <button class="btn collapsed" type="button" data-toggle="collapse" data-target="#collapse6" aria-expanded="false" aria-controls="collapse6">berapa lama waktu untuk menerima dan mengirim uang pada menu transfer</button>
+            </div>
+            <div id="collapse6" class="collapse" aria-labelledby="headingNine" data-parent="#accordionFAQ">
+              <div class="accordion-content">
+                <p>untuk transfer saldo dan rupiah anda dapat lakukan dengan sesama pengguna e-Rupiah saja, waktu yang dibutuhkan sangat cepat, setelah proses selesai maka saldo atau rupiah otomatis terkirim pada acount tujuan</p>
+              </div>
+            </div>
+          </div>
+
         </div>
       </div>
     </div>
   </div>
 </div>
+          
 
 </main> <!-- .bg-light -->
 
