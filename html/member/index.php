@@ -36,16 +36,16 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="./index.html" title="">
+          <a class="navbar-brand" href="./index.php" title="">
             <img src="./assets/images/mashup-icon.svg" class="navbar-logo-img" alt="">
-            Mashup Template
+            E-Rupiah
           </a>
         </div>
 
         <div class="collapse navbar-collapse" id="navbar-collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="./index.html" title="">Home</a></li>
-            <li><a href="./project.html" title="">Project</a></li>
+            <li><a href="./index.php" title="">Home</a></li>
+            <li><a href="./project.php" title="">Project</a></li>
             <li>
               <p>
                 <a href="./components.php" class="btn btn-default navbar-btn" title="">Components</a>
@@ -66,7 +66,7 @@
           <h1>Mountain</h1>
           <p>WELCOME TO MOUNTAIN WEBSITE. AGENCY IN BERLIN.</p>
           <br>
-          <a href="./project.html" class="btn btn-default btn-lg" title="">Discover</a>
+          <a href="./project.php" class="btn btn-default btn-lg" title="">Discover</a>
         </div>
       </div>
     </div>
@@ -119,7 +119,7 @@
                   <p>
                     Quisque tempor, ligula pharetra luctus elementum, arcu nisl suscipit ante, pharetra commodo dui est et enim. Sed eu vestibulum elit. Donec ut libero non.
                   </p>
-                  <a href="./project.html" class="btn btn-primary" title="">
+                  <a href="./project.php" class="btn btn-primary" title="">
                     Discover
                   </a>
                 </div>
@@ -146,7 +146,7 @@
                   <p>
                     Quisque tempor, ligula pharetra luctus elementum, arcu nisl suscipit ante, pharetra commodo dui est et enim. Sed eu vestibulum elit. Donec ut libero non.
                   </p>
-                  <a href="./project.html" class="btn btn-primary" title="">
+                  <a href="./project.php" class="btn btn-primary" title="">
                     Discover
                   </a>
                 </div>
