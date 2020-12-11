@@ -40,58 +40,13 @@
           <img src="../assets/img/app_preview_2.png" alt="">
         </div>
       </div>
-      <div class="col-lg-6 py-3 mt-lg-5">
-        <div class="iconic-list">
-          <div class="iconic-item wow fadeInUp">
-            <div class="iconic-md iconic-text bg-warning fg-white rounded-circle">
-              <span class="mai-cube"></span>
-            </div>
-            <div class="iconic-content">
-              <h5>Powerful Features</h5>
-              <p class="fs-small">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore</p>
-            </div>
-          </div>
-          <div class="iconic-item wow fadeInUp">
-            <div class="iconic-md iconic-text bg-info fg-white rounded-circle">
-              <span class="mai-shield"></span>
-            </div>
-            <div class="iconic-content">
-              <h5>Fully Secured</h5>
-              <p class="fs-small">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore</p>
-            </div>
-          </div>
-          <div class="iconic-item wow fadeInUp">
-            <div class="iconic-md iconic-text bg-indigo fg-white rounded-circle">
-              <span class="mai-desktop-outline"></span>
-            </div>
-            <div class="iconic-content">
-              <h5>Easy Monitoring</h5>
-              <p class="fs-small">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-
-<div class="page-section">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-6 offset-lg-1 py-3 mt-lg-5 wow fadeInUp">
-        <h1 class="mb-4">Ecommerce business opperate easilly</h1>
-        <p class="mb-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos, molestiae, perspiciatis laboriosam quia placeat recusandae repudiandae corrupti similique delectus, aliquam commodi possimus eveniet optio magnam quis vel. Reiciendis, fuga excepturi.</p>
+        <div class="col-lg-6 offset-lg-1 py-3 mt-lg-5 wow fadeInUp">
+        <h1 class="mb-4">petunjuk penggunaan e-Rupiah</h1>
+        <p class="mb-4">Gunakan website e-Rupiah dengan mudah dengan mempelajari video tutorial dibawah ini.</p>
         <div>
           <div class="text-center py-5">
             <embed class="embed-video" src="https://www.youtube.com/embed/13MFxBVWrrA?list=PLl-K7zZEsYLmnJ_FpMOZgyg6XcIGBu2OX">
           </div>
-        </div>
-      </div>
-      <div class="col-lg-5 py-3">
-        <div class="img-place mobile-preview shadow wow zoomIn">
-          <img src="../assets/img/app_preview_3.png" alt="">
         </div>
       </div>
     </div>
