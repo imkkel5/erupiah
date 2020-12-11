@@ -67,12 +67,11 @@
           <p>SILAKAN TRANSAKSI MELAUI MENU DI BAWAH.</p>
           <br>
           <div>
-            <div class="icon">
-              <a href="#" class="">
-                <img class="reveal img-responsive reveal-content image-center" src="./assets/rocket.svg" hidden width="10%">
-                <p>Top Up</p>
-              </a>
-            </div>
+            <a href="#" class="btn btn-lg">
+              <img class="reveal img-responsive reveal-content image-center" src="./assets/rocket.svg" hidden width="10%">
+              <p>Top Up</p>
+            </a>
+
             <a href="./project.php" class="btn btn-info btn-lg" title="">Transfer</a>
             <a href="./project.php" class="btn btn-danger btn-lg" title="">History</a>
             <a href="./project.php" class="btn btn-info btn-lg" title="">PLN</a>
