@@ -66,13 +66,20 @@
           <h1>Rp. 1,000,000</h1>
           <p>SILAKAN TRANSAKSI MELAUI MENU DI BAWAH.</p>
           <br>
-          <a href="./project.php" class="btn btn-info btn-lg" title="">Top Up</a>
-          <a href="./project.php" class="btn btn-info btn-lg" title="">Transfer</a>
-          <a href="./project.php" class="btn btn-info btn-lg" title="">History</a>
-          <a href="./project.php" class="btn btn-info btn-lg" title="">PLN</a>
-          <a href="./project.php" class="btn btn-info btn-lg" title="">Pulsa</a>
-          <a href="./project.php" class="btn btn-info btn-lg" title="">BPJS</a>
-          <a href="./project.php" class="btn btn-info btn-lg" title="">Voucher Game</a>
+          <div>
+            <div class="icon">
+              <a href="#" class="">
+                <img class="reveal img-responsive reveal-content image-center" src="./assets/rocket.svg" hidden width="10%">
+                <p>Top Up</p>
+              </a>
+            </div>
+            <a href="./project.php" class="btn btn-info btn-lg" title="">Transfer</a>
+            <a href="./project.php" class="btn btn-danger btn-lg" title="">History</a>
+            <a href="./project.php" class="btn btn-info btn-lg" title="">PLN</a>
+            <a href="./project.php" class="btn btn-info btn-lg" title="">Pulsa</a>
+            <a href="./project.php" class="btn btn-info btn-lg" title="">BPJS</a>
+            <a href="./project.php" class="btn btn-info btn-lg" title="">Voucher Game</a>
+          </div>
         </div>
       </div>
     </div>
