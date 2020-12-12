@@ -12,7 +12,6 @@
   <!-- Disable tap highlight on IE -->
   <meta name="msapplication-tap-highlight" content="no">
 
-
   <link rel="apple-touch-icon" sizes="180x180" href="./assets/apple-icon-180x180.png">
   <link href="./assets/favicon.ico" rel="icon">
 
@@ -26,38 +25,7 @@
 
 <body>
   <!-- Add your content of header -->
-  <header>
-    <nav class="navbar navbar-default active">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="./index.php" title="">
-            <img src="../../assets/img/icons/LOGO2.png" height="80" class="navbar-logo-img" alt="">
-            E-Rupiah
-          </a>
-        </div>
-
-        <div class="collapse navbar-collapse" id="navbar-collapse">
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="./index.php" title="">Home</a></li>
-            <li><a href="./project.php" title="">Project</a></li>
-            <li>
-              <p>
-                <a href="./components.php" class="btn btn-default navbar-btn" title="">Components</a>
-              </p>
-            </li>
-            <li><a href="../Login-Form.php" title="">Logout</a></li>
-
-          </ul>
-        </div>
-      </div>
-    </nav>
-  </header>
+  <?php include "navbar.php" ?>
 
   <!-- Add your site or app content here -->
   <div class="hero-full-container background-image-container white-text-container">
@@ -65,11 +33,12 @@
       <div class="row">
         <div class="col-xs-12">
           <h1>Rp. 1,000,000</h1>
+          <p>Selamat Datang Mr.Alfin.</p>
           <p>SILAKAN TRANSAKSI MELAUI MENU DI BAWAH.</p>
           <br>
           <div>
             <a href="#" class="icon">
-              <img class="reveal img-responsive reveal-content image-center" src="./assets/rocket.svg" hidden width="10%">
+              <img class="btn reveal img-responsive reveal-content image-center" src="./assets/rocket.svg" hidden width="10%">
               <p>Top Up</p>
             </a>
 
@@ -251,8 +220,7 @@
       </div>
       <div class="row">
         <div class="col-xs-12 col-md-4">
-          <img src="./assets/images/logo-01.png" alt="" class="img-responsive reveal-content image-center">
-
+          <img src="./assets/images/logo-01.png" alt="" width="10px" class="img-responsive reveal-content image-center">
         </div>
 
         <div class="col-xs-12 col-md-4">
