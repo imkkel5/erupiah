@@ -51,6 +51,7 @@
                 <a href="./components.php" class="btn btn-default navbar-btn" title="">Components</a>
               </p>
             </li>
+            <li><a href="../Login-Form.php" title="">Logout</a></li>
 
           </ul>
         </div>
@@ -67,7 +68,7 @@
           <p>SILAKAN TRANSAKSI MELAUI MENU DI BAWAH.</p>
           <br>
           <div>
-            <a href="#" class="btn btn-lg">
+            <a href="#" class="icon">
               <img class="reveal img-responsive reveal-content image-center" src="./assets/rocket.svg" hidden width="10%">
               <p>Top Up</p>
             </a>

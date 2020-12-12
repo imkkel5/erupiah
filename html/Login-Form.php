@@ -90,7 +90,7 @@
           if ($('#user').val() == '' || $('#pass').val() == '' || $('#user').val() != $('#pass').val()) {
             alert("Mohon Isi Username dan password dengan benar");
           } else {
-            window.location = 'index.php';
+            window.location = './member/index.php';
           }
         })
       })
