@@ -32,9 +32,8 @@
     <div class="container">
       <div class="row">
         <div class="col-xs-12">
-          <h1>Rp. 1,000,000</h1>
-          <p>Selamat Datang Mr.Alfin.</p>
-          <p>SILAKAN TRANSAKSI MELAUI MENU DI BAWAH.</p>
+          <h1>Hai UTOK </h1>
+          <p> </p>
           <br>
           <div>
             <a href="#" class="icon">
@@ -43,11 +42,31 @@
             </a>
 
             <a href="./project.php" class="btn btn-info btn-lg" title="">Transfer</a>
-            <a href="./project.php" class="btn btn-info btn-lg" title="">History</a>
-            <a href="./project.php" class="btn btn-info btn-lg" title="">PLN</a>
-            <a href="./project.php" class="btn btn-info btn-lg" title="">Pulsa</a>
-            <a href="./project.php" class="btn btn-info btn-lg" title="">Tokopedia</a>
-            <a href="./project.php" class="btn btn-info btn-lg" title="">Shopee</a>
+            <div class="row">
+            </div>
+        <div class="col-xs-12 col-md-4">
+          <img src="./assets/images/emel.png" alt="" width="170" class="reveal img-responsive reveal-content image-center">
+          <h3><a href="./project.php" class="btn btn-info btn-lg" title="">Mobile Legends</a></h3>
+        </div>
+        </div>
+        <div class="col-xs-12 col-md-4">
+          <img src="./assets/images/emel.png" alt="" width="170" class="reveal img-responsive reveal-content image-center">
+          <h3><a href="./project.php" class="btn btn-info btn-lg" title="">Mobile Legends</a></h3>
+        </div>
+        <div class="col-xs-12 col-md-4">
+          <img src="./assets/images/TOKPED.jpg" alt="" width="75" class="reveal img-responsive reveal-content image-center">
+          <p></p>
+          <h3><a href="./project.php" class="btn btn-success btn-lg" title="">Tokopedia</a></h3>
+          <p></p>
+        </div>
+            <div class="col-xs-12 col-md-4">
+          <img src="./assets/images/SHOPE.PNG" alt=""width="80" class="reveal img-responsive reveal-content image-center">
+          <h3><a href="./project.php" class="btn btn-danger btn-lg" title="">Shopee</a></h3>
+          <p>
+          </p>
+        </div>
+        
+
           </div>
         </div>
       </div>
