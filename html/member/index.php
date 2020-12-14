@@ -98,7 +98,7 @@ session_start();
           <div>
             <a href="#" class="btn btn-info btn-lg" id="topUp" onclick="" title="Menambah Saldo">Top Up</a>
             <a href="#" class="btn btn-info btn-lg" id="tf" title="Transfer Ke Akun Lain">Transfer</a>
-            <a href="#" class="btn btn-info btn-lg" id="history" title="Laporan rincian lalu lintas Uang anda">History</a>
+            <a href="#" class="btn btn-info btn-lg" id="laporan" title="Laporan rincian lalu lintas Uang anda">History</a>
             <a href="#" class="btn btn-info btn-lg" id="pay" title="Bayar tagihan PLN">PLN</a>
             <a href="#" class="btn btn-info btn-lg" id="pulsa" title="Isi Pulsa menggukan Fitur ini">Pulsa</a>
             <a href="#" class="btn btn-info btn-lg" id="tokPed" title="Top Up Saldo Dompet Tokopedia">Tokopedia</a>
@@ -171,7 +171,7 @@ session_start();
       <form action="" id="trForm">
         <div class="form-group">
           <label for="exampleInputEmail1">No/ID Account Tujuan</label>
-          <input type="number" class="form-control" id="exampleInputEmail1" placeholder="No. Rekening">
+          <input type="number" class="form-control" id="valTr" placeholder="No. Rekening">
         </div>
 
         <div class="form-group">
@@ -181,12 +181,149 @@ session_start();
             <option>BCA</option>
             <option>BTN</option>
             <option>LAINNYA</option>
-            <div>
-              <input type="submit" name="submit2" value="Kirim" class="form-control btn-primary" id="submit2" placeholder="Rp">
-            </div>
           </select>
+          <div>
+            <input type="submit" name="submit2" value="Kirim" class="form-control btn-primary" id="submit2" placeholder="Rp">
+          </div>
         </div>
       </form>
+    </div>
+  </div>
+  <div id="pulsaForm" class="modal">
+    <!-- Modal content -->
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <form action="" id="pulsaPayForm">
+        <div class="form-group">
+          <label for="noTel">No Telepon</label>
+          <input type="number" class="form-control" id="noTel" placeholder="No Telepon">
+        </div>
+        <div>
+          <select id="voucher" class="form-control">
+            <option>V10</option>
+            <option>V20</option>
+            <option>V200</option>
+            <option>V1000</option>
+          </select>
+        </div>
+        <div>
+          <input type="submit" name="submit2" value="Kirim" class="form-control btn-primary" id="submit2" placeholder="Rp">
+        </div>
+    </div>
+    </form>
+  </div>
+  <div id="payModal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <form action="" id="payForm">
+        <div class="form-group">
+          <label for="Number">No Rekening Listrik</label>
+          <input type="number" class="form-control" id="noRekListrik" placeholder="">
+        </div>
+        <div class="form-group">
+          <label for="nominal">Nominal Pembayaran</label>
+          <input type="number" class="form-control" id="nominal" placeholder="">
+        </div>
+        <select class="form-control">
+          <option>Pra-bayar</option>
+          <option>Pasca-bayar</option>
+        </select>
+        <div>
+          <input type="submit" name="submit" value="Kirim" class="form-control btn-primary" id="submit3" placeholder="Rp">
+        </div>
+      </form>
+    </div>
+
+  </div>
+
+  <div id="modalTokped" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <form action="" id="tokpedForm">
+        <div class="form-group">
+          <label for="Number">ID Account Tokopedia</label>
+          <input type="number" class="form-control" id="idTokped" placeholder="">
+        </div>
+        <div class="form-group">
+          <label for="nominal">Nominal Pembayaran</label>
+          <input type="number" class="form-control" id="nominalPtokped" placeholder="">
+        </div>
+        <div>
+          <input type="submit" name="submit" value="Kirim" class="form-control btn-primary" id="submit3" placeholder="Rp">
+        </div>
+      </form>
+    </div>
+
+  </div>
+
+  <div id="modalShopee" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <form action="" id="shopeeForm">
+        <div class="form-group">
+          <label for="Number">ID Account Shopee</label>
+          <input type="number" class="form-control" id="idShopee" placeholder="">
+        </div>
+        <div class="form-group">
+          <label for="nominal">Nominal Pembayaran</label>
+          <input type="number" class="form-control" id="nominalPshopee" placeholder="">
+        </div>
+        <div>
+          <input type="submit" name="submit" value="Kirim" class="form-control btn-primary" id="submit3" placeholder="Rp">
+        </div>
+      </form>
+    </div>
+
+  </div>
+
+  <div id="modalHistory" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <table>
+        <tr>
+          <th>Company</th>
+          <th>Contact</th>
+          <th>Country</th>
+        </tr>
+        <tr>
+          <td>Alfreds Futterkiste</td>
+          <td>Maria Anders</td>
+          <td>Germany</td>
+        </tr>
+        <tr>
+          <td>Centro comercial Moctezuma</td>
+          <td>Francisco Chang</td>
+          <td>Mexico</td>
+        </tr>
+        <tr>
+          <td>Ernst Handel</td>
+          <td>Roland Mendel</td>
+          <td>Austria</td>
+        </tr>
+        <tr>
+          <td>Island Trading</td>
+          <td>Helen Bennett</td>
+          <td>UK</td>
+        </tr>
+        <tr>
+          <td>Laughing Bacchus Winecellars</td>
+          <td>Yoshi Tannamuri</td>
+          <td>Canada</td>
+        </tr>
+        <tr>
+          <td>Magazzini Alimentari Riuniti</td>
+          <td>Giovanni Rovelli</td>
+          <td>Italy</td>
+        </tr>
+      </table>
     </div>
 
   </div>
@@ -196,6 +333,11 @@ session_start();
     var modal = document.getElementById("myModal");
     var btnTopUp = document.getElementById("topUp");
     var tfModal = document.getElementById("tf");
+    var pay = document.getElementById("pay");
+    var pulsa = document.getElementById("pulsa");
+    var tokped = document.getElementById("tokPed");
+    var shopee = document.getElementById("shopee");
+    var history = document.getElementById("laporan");
 
     // Get the button that opens the modal
     var btn = document.getElementById("myBtn");
@@ -207,12 +349,101 @@ session_start();
     btn.onclick = function() {
       modal.style.display = "block";
     }
+
+    shopee.onclick = function() {
+      modalShopee.style.display = "block";
+      $("#shopeeForm").on("submit", function() {
+        if ($("#idShopee").val() != '' || $("#nominalPshopee").val() != '') {
+
+          if (confirm("Apakah anda yakin TopUp") == true) {
+            alert("Pembayaran berhasil ");
+          } else {
+            alert("Pembayaran dibatalkan ");
+          }
+          modalShopee.style.display = "none";
+        } else {
+          alert("ID dan nominal tidak boleh kosong");
+        }
+      });
+
+    }
+
+    history.onclick = function() {
+      alert("Oke");
+      // modalHistory.style.display = "block";
+      // $("#historyForm").on("submit", function() {
+
+      // });
+
+    }
+
+
+    tokped.onclick = function() {
+      modalTokped.style.display = "block";
+      $("#tokpedForm").on("submit", function() {
+        if ($("#idTokped").val() != '' || $("#nominalPTokped").val() != '') {
+
+          if (confirm("Apakah anda yakin TopUp") == true) {
+            alert("Pembayaran berhasil ");
+          } else {
+            alert("Pembayaran dibatalkan ");
+          }
+          modalTokped.style.display = "none";
+        } else {
+          alert("Nominal atau voucher tidak boleh kosong");
+        }
+      });
+
+    }
+
+    pulsa.onclick = function() {
+      pulsaForm.style.display = "block";
+      $("#pulsaPayForm").on("submit", function() {
+        if ($("#noTel").val() != '' || $("#voucher").val() != '') {
+
+          if (confirm("Apakah anda yakin membeli voucher ini?") == true) {
+            alert("Pembayaran berhasil ");
+          } else {
+            alert("Pembayaran dibatalkan ");
+          }
+          pulsaForm.style.display = "none";
+        } else {
+          alert("Nominal atau voucher tidak boleh kosong");
+        }
+      });
+    }
+
+    pay.onclick = function() {
+      payModal.style.display = "block";
+      $("#payModal").on("submit", function() {
+        if ($("#nominal").val() != '') {
+
+          if (confirm("Apakah anda yakin membayar tagihan ini?") == true) {
+            alert("Pembayaran berhasil ");
+          } else {
+            alert("Pembayaran dibatalkan ");
+          }
+          payModal.style.display = "none";
+        } else {
+          alert("Nominal tidak boleh kosong");
+        }
+      });
+    }
+
     tfModal.onclick = function() {
       tfModal2.style.display = "block";
       $("#trForm").on("submit", function() {
-        // confirm("Apakah anda yakin akan transfer?");
-        alert("Transfer berhasil ");
-        tfModal2.style.display = "none";
+        if ($("#valTr").val() != '') {
+
+          if (confirm("Apakah anda yakin akan transfer?") == true) {
+            alert("Transfer berhasil ");
+          } else {
+            alert("Transfer dibatalkan ");
+          }
+          tfModal2.style.display = "none";
+        } else {
+          alert("Nominal tidak boleh kosong");
+        }
       });
     }
 
@@ -235,6 +466,9 @@ session_start();
     window.onclick = function(event) {
       if (event.target == modal) {
         modal.style.display = "none";
+      }
+      if (event.target == tfModal2) {
+        tfModal2.style.display = "none";
       }
     }
   </script>
