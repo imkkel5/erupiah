@@ -1,5 +1,6 @@
 <?php
 session_start();
+error_reporting(0);
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -92,6 +93,11 @@ session_start();
       <div class="row">
         <div class="col-xs-12">
           <h1>Rp. 1,000,000</h1>
+          <?php
+            if($_GET["usr"]==''){
+              $_GET["usr"] ="Guest" ;
+            }
+          ?>
           <p>Selamat Datang <?php echo $_GET["usr"] ?></p>
           <p>SILAKAN TRANSAKSI MELAUI MENU DI BAWAH.</p>
           <br>
@@ -141,7 +147,6 @@ session_start();
 
 
 
-  <button id="myBtn">Open Modal</button>
 
   <!-- The Modal -->
   <div id="myModal" class="modal">
@@ -340,7 +345,7 @@ session_start();
       </table>
     </div>
 
-  </div> -->
+  </div>
 
   <script>
     // Get the modal

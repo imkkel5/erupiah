@@ -50,7 +50,7 @@
                       </div>
 
                       <div>
-                        <a href="#" class="txt1">
+                        <a href=""  class="txt1" id="forgotPass" >
                           Forgot Password?
                         </a>
                       </div>
@@ -95,6 +95,15 @@
           }
         })
       })
+    </script>
+    <script>
+    
+    <script>
+    var forgotPass = document.getElementById("forgotPass");
+    forgotPass.onclick = function(event) {
+          alert("berhasil");
+        }
+
     </script>
 
 </body>
