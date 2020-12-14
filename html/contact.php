@@ -46,8 +46,7 @@
               <div class="col-md-4 text-center py-3 py-md-2">
                 <i class="mai-mail-open-outline h3"></i>
                 <p class="fg-primary fw-medium fs-vlarge">Email</p>
-                <p class="mb-1">support@mobster.com</p>
-                <p class="mb-0">support@macodeid.com</p>
+                <p class="mb-1">erupiahcompany@outlook.com</p>
               </div>
             </div>
           </div>
