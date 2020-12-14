@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -33,7 +36,7 @@
       <div class="row">
         <div class="col-xs-12">
           <h1>Rp. 1,000,000</h1>
-          <p>Selamat Datang Mr.Alfin.</p>
+          <p>Selamat Datang <?php echo $name ?></p>
           <p>SILAKAN TRANSAKSI MELAUI MENU DI BAWAH.</p>
           <br>
           <div>

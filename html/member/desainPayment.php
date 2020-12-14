@@ -32,7 +32,7 @@
     <div class="container">
       <div class="row">
         <div class="col-xs-12 col-md-8 col-md-offset-2">
-          <h1 class="text-center">Moon</h1>
+          <h1 class="text-center">INI ADALAH HALAMAN PERCOBAAN DESAIN PAYMENT</h1>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas luctus at sem quis varius.
             Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Phasellus iaculis magna sagittis elit sagittis, at hendrerit lorem venenatis. Morbi accumsan iaculis blandit. Cras ultrices hendrerit nisl.</p>
 
@@ -41,11 +41,9 @@
           </div>
 
           <div class="row">
-            <div class="col-xs-6">
-              <img src="./assets/images/img-04.jpg" alt="" class="img-responsive reveal-content" data-action="zoom">
-            </div>
-            <div class="col-xs-6">
-              <img src="./assets/images/img-07.jpg" alt="" class="img-responsive reveal-content" data-action="zoom">
+            <div class="form-group">
+              <label for="exampleInputEmail1">Nominal Transfer</label>
+              <input type="number" class="form-control" id="exampleInputEmail1" placeholder="Value">
             </div>
           </div>
         </div>
