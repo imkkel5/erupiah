@@ -61,7 +61,7 @@
             </div>
             <div id="collapse2" class="collapse show" aria-labelledby="headingFive" data-parent="#accordionFAQ">
               <div class="accordion-content">
-                <p>silahkan isi saldo terlebih dahullu lalu pergi ke halaman member</p>
+                <p>silahkan isi saldo terlebih dahulu lalu pergi ke halaman member</p>
               </div>
             </div>
           </div>
@@ -98,7 +98,7 @@
             </div>
             <div id="collapse6" class="collapse" aria-labelledby="headingNine" data-parent="#accordionFAQ">
               <div class="accordion-content">
-                <p>untuk transfer saldo dan rupiah anda dapat lakukan dengan sesama pengguna e-Rupiah saja, waktu yang dibutuhkan sangat cepat, setelah proses selesai maka saldo atau rupiah otomatis terkirim pada acount tujuan</p>
+                <p>untuk transfer saldo anda dapat lakukan dengan sesama pengguna e-Rupiah saja, waktu yang dibutuhkan sangat cepat, setelah proses selesai maka saldo otomatis terkirim pada acount tujuan</p>
               </div>
             </div>
           </div>
