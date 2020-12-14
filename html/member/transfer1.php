@@ -101,11 +101,11 @@
 
 
         <div class="col-xs-12">
-          <h3>erupiahcompany@outlook.com</h3>
+          <h3>E-Rupiah</h3>
 
           <div class="row">
             <div class="col-xs-12 col-sm-7">
-              <p><small>Copyright © E-Rupiah. All rights reserved <a href="http://www.mashup-template.com/" title="Create website with free html template"></a><a href="https://www.unsplash.com/" title="Beautiful Free Images"></a></small>
+              <p><small>Hadir dalam setiap kebutuhan, Terimakasih <a href="http://www.mashup-template.com/" title="Create website with free html template"></a><a href="https://www.unsplash.com/" title="Beautiful Free Images"></a></small>
               </p>
             </div>
             <div class="col-xs-12 col-sm-5">

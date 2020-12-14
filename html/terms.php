@@ -36,8 +36,8 @@
           <div class="iconic-item wow fadeInUp">
             <div class="iconic-content">
               <h5>Ketentuan Umum</h5>
-              <p class="fs-small">E-Rupiah baru dapat digunakan setelah melakukan aktivasi atau pendaftaran dengan menggunakan nomor handpone serta informasi lain yang dibutuhkan</p>
-              <p class="fs-small">setiap nomor ponsel hanya dapat digunakan satu kali</p>
+              <p class="fs-small">E-Rupiah baru dapat digunakan setelah melakukan aktivasi atau pendaftaran dengan menggunakan email serta informasi lain yang dibutuhkan</p>
+              <p class="fs-small">setiap email hanya dapat digunakan satu kali</p>
             </div>
             <div class="iconic-md iconic-text bg-warning fg-white rounded-circle">
               <span class="mai-analytics"></span>
@@ -55,7 +55,7 @@
           <div class="iconic-item wow fadeInUp">
             <div class="iconic-content">
               <h5>fitur-fitur E-Rupiah</h5>
-              <p class="fs-small">dalam menggunakan websie E-Rupiah pengguna disediakan fitur berupa pembayaran segala bentuk transaksi, top up saldo,E-rupiah point,dsb</p>
+              <p class="fs-small">dalam menggunakan websie E-Rupiah pengguna disediakan fitur berupa pembayaran segala bentuk transaksi, top up saldo,transfer,dsb</p>
             </div>
             <div class="iconic-md iconic-text bg-indigo fg-white rounded-circle">
               <span class="mai-desktop-outline"></span>
