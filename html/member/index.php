@@ -154,7 +154,7 @@ error_reporting(0);
 
     <!-- Modal content -->
     <div class="modal-content">
-      <span class="close">&times;</span>
+      <span class="close" hidden>&times;</span>
       <form action="" id="inputVal">
         <div class="form-group">
           <label for="exampleInputEmail1">Value</label>
@@ -173,7 +173,7 @@ error_reporting(0);
 
     <!-- Modal content -->
     <div class="modal-content">
-      <span class="close">&times;</span>
+      <span class="close" hidden>&times;</span>
       <form action="" id="trForm">
         <div class="form-group">
           <label for="exampleInputEmail1">No/ID Account Tujuan</label>
@@ -198,7 +198,7 @@ error_reporting(0);
   <div id="pulsaForm" class="modal">
     <!-- Modal content -->
     <div class="modal-content">
-      <span class="close">&times;</span>
+      <span class="close" hidden>&times;</span>
       <form action="" id="pulsaPayForm">
         <div class="form-group">
           <label for="noTel">No Telepon</label>
@@ -222,7 +222,7 @@ error_reporting(0);
 
     <!-- Modal content -->
     <div class="modal-content">
-      <span class="close">&times;</span>
+      <span class="close" hidden>&times;</span>
       <form action="" id="payForm">
         <div class="form-group">
           <label for="Number">No Rekening Listrik</label>
@@ -248,7 +248,7 @@ error_reporting(0);
 
     <!-- Modal content -->
     <div class="modal-content">
-      <span class="close">&times;</span>
+      <span class="close" hidden>&times;</span>
       <form action="" id="tokpedForm">
         <div class="form-group">
           <label for="Number">ID Account Tokopedia</label>
@@ -270,7 +270,7 @@ error_reporting(0);
 
     <!-- Modal content -->
     <div class="modal-content">
-      <span class="close">&times;</span>
+      <span class="close" hidden>&times;</span>
       <form action="" id="shopeeForm">
         <div class="form-group">
           <label for="Number">ID Account Shopee</label>
@@ -292,7 +292,7 @@ error_reporting(0);
 
     <!-- Modal content -->
     <div class="modal-content">
-      <span class="close">&times;</span>
+      <span class="close" hidden>&times;</span>
       <table>
         <td>
         <th>No</th>
