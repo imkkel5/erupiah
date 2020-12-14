@@ -81,13 +81,8 @@
             </div>
             <div id="collapse4" class="collapse" aria-labelledby="headingSeven" data-parent="#accordionFAQ">
               <div class="accordion-content">
-              <p>jika anda menemukan hal seperti itu maka periksa kembali metode top up anda. metode top up yang dapat dipakai andalah:</p>
-                <ul>
-                  <li>atm mandiri</li>
-                  <li>atm bca</li>
-                  <li>atm bri</li>
-                  <li>indomart</li>
-                </ul>
+              <p>jika anda menemukan hal seperti itu maka teliti kembali pada saat anda melakukan top up</p>
+                
               </div>
             </div>
           </div>
@@ -98,7 +93,7 @@
             </div>
             <div id="collapse6" class="collapse" aria-labelledby="headingNine" data-parent="#accordionFAQ">
               <div class="accordion-content">
-                <p>untuk transfer saldo anda dapat lakukan dengan sesama pengguna e-Rupiah saja, waktu yang dibutuhkan sangat cepat, setelah proses selesai maka saldo otomatis terkirim pada acount tujuan</p>
+                <p>untuk transfer saldo  setelah proses selesai maka saldo otomatis terkirim pada tujuan</p>
               </div>
             </div>
           </div>
