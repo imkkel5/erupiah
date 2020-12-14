@@ -18,7 +18,7 @@
               <article class="blog-entry">
                 <div class="entry-header">
                 </div>
-                <form action="">
+                <form action="./member/index.php" id="regForm">
                   <h3>Registration Form</h3>
                   <div class="form-group">
                     <input type="text" placeholder="First Name" class="form-control">
@@ -52,7 +52,7 @@
                   <div class="entry-header">
                   </div>
                   <div class="btn btn-primary rounded-pill">
-                    <button class="btn btn-primary rounded-pill p-0">
+                    <button type="submit" class="btn btn-primary rounded-pill p-0">
                       Register
                     </button>
                   </div>
@@ -78,7 +78,14 @@
     <script src="../assets/js/google-maps.js"></script>
 
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAIA_zqjFMsJM_sxP9-6Pde5vVCTyJmUHM&callback=initMap"></script>
-
+    <script>
+      $(document).ready(function() {
+        $('#btLogin').hide();
+        $('#regForm').on("submit", function(event) {
+          alert("Pendaftaran Berhasil, Selamat Datang");
+        })
+      })
+    </script>
 </body>
 
 </html>
