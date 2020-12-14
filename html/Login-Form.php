@@ -103,9 +103,10 @@
                       </div>
 
                       <div>
-                        <a href="#"  class="txt1" id="forgotPass" >
+                        <!-- <a href="#"  class="txt1" id="forgotPass1" >
                           Forgot Password?
-                        </a>
+                        </a> -->
+                        <p>Forgot Password Service : <i>imkkelompok55@gmail.com</i></p>
                       </div>
                     </div>
 
@@ -169,7 +170,7 @@
       })
     </script>
     <script>
-    var forgotPass = document.getElementById("forgotPass");
+    var forgotPass = document.getElementById("forgotPass1");
     forgotPass.onclick = function() {
       alert("oke");
       forgotPassword.style.display = "block";
