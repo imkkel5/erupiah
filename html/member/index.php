@@ -96,13 +96,13 @@ session_start();
           <p>SILAKAN TRANSAKSI MELAUI MENU DI BAWAH.</p>
           <br>
           <div>
-            <a href="#" class="btn btn-info btn-lg" id="topUp" onclick="" title="">Top Up</a>
-            <a href="./project.php" class="btn btn-info btn-lg" title="">Transfer</a>
-            <a href="./project.php" class="btn btn-info btn-lg" title="">History</a>
-            <a href="./project.php" class="btn btn-info btn-lg" title="">PLN</a>
-            <a href="./project.php" class="btn btn-info btn-lg" title="">Pulsa</a>
-            <a href="./project.php" class="btn btn-info btn-lg" title="">Tokopedia</a>
-            <a href="./project.php" class="btn btn-info btn-lg" title="">Shopee</a>
+            <a href="#" class="btn btn-info btn-lg" id="topUp" onclick="" title="Menambah Saldo">Top Up</a>
+            <a href="#" class="btn btn-info btn-lg" id="tf" title="Transfer Ke Akun Lain">Transfer</a>
+            <a href="#" class="btn btn-info btn-lg" id="history" title="Laporan rincian lalu lintas Uang anda">History</a>
+            <a href="#" class="btn btn-info btn-lg" id="pay" title="Bayar tagihan PLN">PLN</a>
+            <a href="#" class="btn btn-info btn-lg" id="pulsa" title="Isi Pulsa menggukan Fitur ini">Pulsa</a>
+            <a href="#" class="btn btn-info btn-lg" id="tokPed" title="Top Up Saldo Dompet Tokopedia">Tokopedia</a>
+            <a href="#" class="btn btn-info btn-lg" id="shopee" title="Top Up Saldo Dompet Shopee">Shopee</a>
           </div>
         </div>
       </div>
@@ -149,28 +149,44 @@ session_start();
     <!-- Modal content -->
     <div class="modal-content">
       <span class="close">&times;</span>
-      <form action="">
+      <form action="" id="inputVal">
         <div class="form-group">
           <label for="exampleInputEmail1">Value</label>
           <input type="number" class="form-control" id="exampleInputEmail1" placeholder="Rp">
         </div>
         <div>
-          <label for="submit">Value</label>
-          <input type="submit" name="submit" name="submit" value="Kirim" class="form-control" id="submit" placeholder="Rp">
+          <input type="submit" name="submit" value="Kirim" class="form-control btn-primary" id="submit" placeholder="Rp">
         </div>
       </form>
     </div>
 
   </div>
 
-
-  <!-- modal berhasil transaksi -->
-  <div id="modalSuccess" class="modal">
+  <!-- The Modal -->
+  <div id="tfModal2" class="modal">
 
     <!-- Modal content -->
     <div class="modal-content">
       <span class="close">&times;</span>
-      <p>Transaksi Berhasil</p>
+      <form action="" id="trForm">
+        <div class="form-group">
+          <label for="exampleInputEmail1">No/ID Account Tujuan</label>
+          <input type="number" class="form-control" id="exampleInputEmail1" placeholder="No. Rekening">
+        </div>
+
+        <div class="form-group">
+          <select class="form-control">
+            <option>BRI</option>
+            <option>BNI</option>
+            <option>BCA</option>
+            <option>BTN</option>
+            <option>LAINNYA</option>
+            <div>
+              <input type="submit" name="submit2" value="Kirim" class="form-control btn-primary" id="submit2" placeholder="Rp">
+            </div>
+          </select>
+        </div>
+      </form>
     </div>
 
   </div>
@@ -178,6 +194,8 @@ session_start();
   <script>
     // Get the modal
     var modal = document.getElementById("myModal");
+    var btnTopUp = document.getElementById("topUp");
+    var tfModal = document.getElementById("tf");
 
     // Get the button that opens the modal
     var btn = document.getElementById("myBtn");
@@ -188,6 +206,24 @@ session_start();
     // When the user clicks the button, open the modal 
     btn.onclick = function() {
       modal.style.display = "block";
+    }
+    tfModal.onclick = function() {
+      tfModal2.style.display = "block";
+      $("#trForm").on("submit", function() {
+        // confirm("Apakah anda yakin akan transfer?");
+        alert("Transfer berhasil ");
+        tfModal2.style.display = "none";
+      });
+    }
+
+    //ketika klik top up
+    btnTopUp.onclick = function(event) {
+      modal.style.display = "block";
+      $("#inputVal").on("submit", function() {
+        alert("No. Virtual Account Anda adalah : 0823982398xxxx \
+        Transaksi akan segera di proses, Setelah Pembayaran berhasil ");
+        modal.style.display = "none";
+      });
     }
 
     // When the user clicks on <span> (x), close the modal
@@ -200,21 +236,6 @@ session_start();
       if (event.target == modal) {
         modal.style.display = "none";
       }
-    }
-
-    //ketika klik top up
-
-    var btnTopUp = document.getElementById("topUp");
-    btnTopUp.onclick = function(event) {
-      modal.style.display = "block";
-    }
-
-    var modalSuccess = document.getElementById("modalSuccess")
-    var btnSubmit = document.getElementById("submit");
-    btnSubmit.onclick = function(event) {
-      modal.style.display = "none";
-      modalSuccess.style.display = "block";
-
     }
   </script>
 
