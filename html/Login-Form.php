@@ -25,7 +25,7 @@
                   <form class="login100-form validate-form">
                     <div class="wrap-input100 validate-input m-b-26" data-validate="User ID is required">
                       <span class="label-input100">User ID</span>
-                      <input class="form-control" type="text" name="user" id="user" placeholder="Enter User ID">
+                      <input class="form-control" type="text" autofocus name="user" id="user" placeholder="Enter User ID">
                       <span class="focus-input100"></span>
                     </div>
                     <div class="wrap-input100 validate-input m-b-18" data-validate="Password is required">
