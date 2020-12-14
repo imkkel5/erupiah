@@ -45,7 +45,7 @@
         <p class="mb-4">Gunakan website e-Rupiah dengan mudah dengan mempelajari video tutorial dibawah ini.</p>
         <div>
           <div class="text-center py-5">
-            <embed class="embed-video" src="https://www.youtube.com/embed/13MFxBVWrrA?list=PLl-K7zZEsYLmnJ_FpMOZgyg6XcIGBu2OX">
+            <embed class="embed-video" src="https://www.youtube.com/embed/S1nT4C9WmeA">
           </div>
         </div>
       </div>
