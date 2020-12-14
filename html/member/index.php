@@ -96,13 +96,13 @@ session_start();
           <p>SILAKAN TRANSAKSI MELAUI MENU DI BAWAH.</p>
           <br>
           <div>
-            <a href="#" class="btn btn-info btn-lg" id="topUp" onclick="" title="Menambah Saldo">Top Up</a>
-            <a href="#" class="btn btn-info btn-lg" id="tf" title="Transfer Ke Akun Lain">Transfer</a>
-            <a href="#" class="btn btn-info btn-lg" id="laporan" title="Laporan rincian lalu lintas Uang anda">History</a>
-            <a href="#" class="btn btn-info btn-lg" id="pay" title="Bayar tagihan PLN">PLN</a>
-            <a href="#" class="btn btn-info btn-lg" id="pulsa" title="Isi Pulsa menggukan Fitur ini">Pulsa</a>
-            <a href="#" class="btn btn-info btn-lg" id="tokPed" title="Top Up Saldo Dompet Tokopedia">Tokopedia</a>
-            <a href="#" class="btn btn-info btn-lg" id="shopee" title="Top Up Saldo Dompet Shopee">Shopee</a>
+            <a href="#" class="btn btn-info btn-lg" style="background-color:transparent; border-color:transparent;" id="topUp" title="Menambah Saldo"><img src="./assets/images/topup.png" height="35" />Top Up</a>
+            <a href="#" class="btn btn-info btn-lg" style="background-color:transparent; border-color:transparent;" id="tf" title="Transfer Ke Akun Lain"><img src="./assets/images/transfer.png" height="35" />Transfer</a>
+            <a href="#" class="btn btn-info btn-lg" style="background-color:transparent; border-color:transparent;" id="laporan" title="Laporan rincian lalu lintas Uang anda"><img src="./assets/images/topup.png" height="35" />History</a>
+            <a href="#" class="btn btn-info btn-lg" style="background-color:transparent; border-color:transparent;" id="pay" title="Bayar tagihan PLN"><img src="./assets/images/pln.png" height="35" />PLN</a>
+            <a href="#" class="btn btn-info btn-lg" style="background-color:transparent; border-color:transparent;" id="pulsa" title="Isi Pulsa menggukan Fitur ini"><img src="./assets/images/pulsa.png" height="35" />Pulsa</a>
+            <a href="#" class="btn btn-info btn-lg" style="background-color:transparent; border-color:transparent;" id="tokPed" title="Top Up Saldo Dompet Tokopedia"><img src="./assets/images/tokopedia.png" height="35" />Tokopedia</a>
+            <a href="#" class="btn btn-info btn-lg" style="background-color:transparent; border-color:transparent;" id="shopee" title="Top Up Saldo Dompet Shopee"><img src="./assets/images/shopee.png" height="35" />Shopee</a>
           </div>
         </div>
       </div>
@@ -288,45 +288,59 @@ session_start();
     <div class="modal-content">
       <span class="close">&times;</span>
       <table>
+        <td>
+        <th>No</th>
+        <th>Tanggal</th>
+        <th width="50%">Tranksaksi</th>
+        <th>Debet</th>
+        <th>Kredit</th>
+        </td>
         <tr>
-          <th>Company</th>
-          <th>Contact</th>
-          <th>Country</th>
+          <th>1</th>
+          <th>2 November 2020</th>
+          <th>Top Up</th>
+          <th>10000</th>
+          <th>-</th>
         </tr>
         <tr>
-          <td>Alfreds Futterkiste</td>
-          <td>Maria Anders</td>
-          <td>Germany</td>
+          <th>2</th>
+          <th>3 November 2020</th>
+          <th>Top Up Tokopedia</th>
+          <th>-</th>
+          <th>100</th>
         </tr>
         <tr>
-          <td>Centro comercial Moctezuma</td>
-          <td>Francisco Chang</td>
-          <td>Mexico</td>
+          <th>1</th>
+          <th>2 November 2020</th>
+          <th>Top Up</th>
+          <th>10000</th>
+          <th>-</th>
         </tr>
         <tr>
-          <td>Ernst Handel</td>
-          <td>Roland Mendel</td>
-          <td>Austria</td>
+          <th>2</th>
+          <th>3 November 2020</th>
+          <th>Top Up Tokopedia</th>
+          <th>-</th>
+          <th>100</th>
         </tr>
         <tr>
-          <td>Island Trading</td>
-          <td>Helen Bennett</td>
-          <td>UK</td>
+          <th>1</th>
+          <th>2 November 2020</th>
+          <th>Top Up</th>
+          <th>10000</th>
+          <th>-</th>
         </tr>
         <tr>
-          <td>Laughing Bacchus Winecellars</td>
-          <td>Yoshi Tannamuri</td>
-          <td>Canada</td>
-        </tr>
-        <tr>
-          <td>Magazzini Alimentari Riuniti</td>
-          <td>Giovanni Rovelli</td>
-          <td>Italy</td>
+          <th>2</th>
+          <th>3 November 2020</th>
+          <th>Top Up Tokopedia</th>
+          <th>-</th>
+          <th>100</th>
         </tr>
       </table>
     </div>
 
-  </div>
+  </div> -->
 
   <script>
     // Get the modal
@@ -337,7 +351,7 @@ session_start();
     var pulsa = document.getElementById("pulsa");
     var tokped = document.getElementById("tokPed");
     var shopee = document.getElementById("shopee");
-    var history = document.getElementById("laporan");
+    var laporan = document.getElementById("laporan");
 
     // Get the button that opens the modal
     var btn = document.getElementById("myBtn");
@@ -368,9 +382,8 @@ session_start();
 
     }
 
-    history.onclick = function() {
-      alert("Oke");
-      // modalHistory.style.display = "block";
+    laporan.onclick = function() {
+      modalHistory.style.display = "block";
       // $("#historyForm").on("submit", function() {
 
       // });
@@ -467,9 +480,26 @@ session_start();
       if (event.target == modal) {
         modal.style.display = "none";
       }
+      if (event.target == modalTokped) {
+        modalTokped.style.display = "none";
+      }
+      if (event.target == modalShopee) {
+        modalShopee.style.display = "none";
+      }
+      if (event.target == payModal) {
+        payModal.style.display = "none";
+      }
+      if (event.target == pulsaForm) {
+        pulsaForm.style.display = "none";
+      }
       if (event.target == tfModal2) {
         tfModal2.style.display = "none";
       }
+      if (event.target == modalHistory) {
+        modalHistory.style.display = "none";
+      }
+
+
     }
   </script>
 
