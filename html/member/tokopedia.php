@@ -19,7 +19,7 @@
   <link href="" rel="stylesheet">
 
 
-  <title>transfer</title>
+  <title>pembayaran tokopedia</title>
 
   <link href="./main.550dcf66.css" rel="stylesheet">
 </head>
@@ -44,9 +44,7 @@
 
         <div class="collapse navbar-collapse" id="navbar-collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="./index.php" title="">Home</a></li>
-           
-            <li>
+          <li><a href="./index.php" title="">Home</a></li>
               <p>
                 
               </p>
@@ -65,8 +63,8 @@
       <div class="row">
         <div class="col-xs-12 col-md-12">
           <div class="section-container-spacer">
-            <h2  class="text-center">transfer</h2>
-            <p class="text-center">kini transfer ke sesama pengguna e-Rupiah jadi lebih mudah</p>
+            <h2  class="text-center">pembayaran tokopedia</h2>
+            
           </div>
           <div class="card-container">
             <div class="card card-shadow col-xs-10 col-xs-offset-1 col-md-8 col-md-offset-2 reveal">
@@ -74,15 +72,13 @@
                 <div class="row">
                   <div class="col-md-7">
                     <div class="form-group">
-                      <input type="text" class="form-control" id="username" placeholder="username penerima">
+                      <input type="text" class="form-control" id="kode bayar" placeholder="kode bayar">
                     </div>
                     <div class="form-group">
-                      <input type="text" class="form-control" id="tnominal" placeholder="nominal yang ditransfer Rp.">
+                      <input type="text" class="form-control" id="nominal" placeholder="nominal yang dibayar Rp.">
                     </div>
-                    <div class="form-group">
-                      <textarea class="form-control" rows="3" placeholder="pesan"></textarea>
-                    </div>
-                    <button type="submit" class="btn btn-primary">transfer</button>
+                    
+                    <button type="submit" class="btn btn-primary">bayar</button>
                   </div>
                 </div>
               </form>
