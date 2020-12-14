@@ -149,14 +149,28 @@ session_start();
     <!-- Modal content -->
     <div class="modal-content">
       <span class="close">&times;</span>
-      <div class="form-group">
-        <label for="exampleInputEmail1">Value</label>
-        <input type="number" class="form-control" id="exampleInputEmail1" placeholder="Rp">
-      </div>
-      <div>
-        <label for="submit">Value</label>
-        <input type="submit" name="submit" name="submit" value="Kirim" class="form-control" id="submit" placeholder="Rp">
-      </div>
+      <form action="">
+        <div class="form-group">
+          <label for="exampleInputEmail1">Value</label>
+          <input type="number" class="form-control" id="exampleInputEmail1" placeholder="Rp">
+        </div>
+        <div>
+          <label for="submit">Value</label>
+          <input type="submit" name="submit" name="submit" value="Kirim" class="form-control" id="submit" placeholder="Rp">
+        </div>
+      </form>
+    </div>
+
+  </div>
+
+
+  <!-- modal berhasil transaksi -->
+  <div id="modalSuccess" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <p>Transaksi Berhasil</p>
     </div>
 
   </div>
@@ -193,6 +207,14 @@ session_start();
     var btnTopUp = document.getElementById("topUp");
     btnTopUp.onclick = function(event) {
       modal.style.display = "block";
+    }
+
+    var modalSuccess = document.getElementById("modalSuccess")
+    var btnSubmit = document.getElementById("submit");
+    btnSubmit.onclick = function(event) {
+      modal.style.display = "none";
+      modalSuccess.style.display = "block";
+
     }
   </script>
 
