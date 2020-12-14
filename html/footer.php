@@ -5,30 +5,30 @@
         <h5 class="mb-3">Pages</h5>
         <ul class="menu-link">
           <li><a href="#" class="">Updates</a></li>
-          <li><a href="#" class="">Testimonial</a></li>
+          <li><a href="http://localhost/erupiah/html/index.php" class="">Testimonial</a></li>
         </ul>
       </div>
       <div class="col-sm-6 col-lg-2 py-3">
         <h5 class="mb-3">Company</h5>
         <ul class="menu-link">
-          <li><a href="#" class="">About</a></li>
-          <li><a href="#" class="">Team</a></li>
-          <li><a href="#" class="">Careers</a></li>
-          <li><a href="#" class="">HIRING!</a></li>
+          <li><a href="http://localhost/erupiah/html/about.php" class="">About</a></li>
+          <li><a href="http://localhost/erupiah/html/about.php" class="">Team</a></li>
+          <li><a href="http://localhost/erupiah/html/careers.php" class="">Careers</a></li>
+          <li><a href="http://localhost/erupiah/html/careers.php" class="">HIRING!</a></li>
         </ul>
       </div>
       <div class="col-md-6 col-lg-4 py-3">
         <h5 class="mb-3">Contact</h5>
         <ul class="menu-link">
-          <li><a href="#" class="">Contact Us</a></li>
-          <li><a href="#" class="">Office Location</a></li>
-          <li><a href="#" class="">erupiahcompany@outlook.com</a></li>
-          <li><a href="#" class="">+62 815437900</a></li>
+          <li><a href="http://localhost/erupiah/html/contact.php" class="">Contact Us</a></li>
+          <li><a href="http://localhost/erupiah/html/contact.php" class="">Office Location</a></li>
+          <li><a href="http://localhost/erupiah/html/contact.php" class="">erupiahcompany@outlook.com</a></li>
+          <li><a href="http://localhost/erupiah/html/contact.php" class="">+62 815437900</a></li>
         </ul>
       </div>
       <div class="col-md-6 col-lg-4 py-3">
         <h5 class="mb-3">Subscribe</h5>
-        <p>Get some offers, news, or update features of application</p>
+        <p>Get some offers, news, or update features </p>
         <form method="POST">
           <div class="input-group">
             <input type="text" class="form-control" placeholder="Your email..">
@@ -40,10 +40,10 @@
 
         <!-- Social Media Button -->
         <div class="mt-4">
-          <a href="#" class="btn btn-fab btn-primary fg-white"><span class="mai-logo-facebook"></span></a>
-          <a href="#" class="btn btn-fab btn-primary fg-white"><span class="mai-logo-twitter"></span></a>
-          <a href="#" class="btn btn-fab btn-primary fg-white"><span class="mai-logo-instagram"></span></a>
-          <a href="#" class="btn btn-fab btn-primary fg-white"><span class="mai-logo-google"></span></a>
+          <a href="https://facebook.com/" class="btn btn-fab btn-primary fg-white"><span class="mai-logo-facebook"></span></a>
+          <a href="https://twitter.com/" class="btn btn-fab btn-primary fg-white"><span class="mai-logo-twitter"></span></a>
+          <a href="https://instagram.com/" class="btn btn-fab btn-primary fg-white"><span class="mai-logo-instagram"></span></a>
+          <a href="https://www.google.com/account/about/" class="btn btn-fab btn-primary fg-white"><span class="mai-logo-google"></span></a>
         </div>
       </div>
     </div>
@@ -60,8 +60,8 @@
       </div>
       <div class="col-12 col-md-6 py-2">
         <ul class="nav justify-content-end">
-          <li class="nav-item"><a href="#" class="nav-link">Terms of Use</a></li>
-          <li class="nav-item"><a href="#" class="nav-link">Privacy Policy</a></li>
+          <li class="nav-item"><a href="http://localhost/erupiah/html/terms.php" class="nav-link">Terms of Use</a></li>
+          <li class="nav-item"><a href="http://localhost/erupiah/html/terms.php" class="nav-link">Privacy Policy</a></li>
           <li class="nav-item"><a href="#" class="nav-link">Cookie Policy</a></li>
         </ul>
       </div>
