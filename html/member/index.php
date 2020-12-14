@@ -147,7 +147,7 @@ error_reporting(0);
 
 
 
-  <button id="myBtn">Open Modal</button>
+  <button id="myBtn" hidden>Open Modal</button>
 
   <!-- The Modal -->
   <div id="myModal" class="modal">
@@ -346,7 +346,7 @@ error_reporting(0);
       </table>
     </div>
 
-  </div> -->
+  </div>
 
   <script>
     // Get the modal
