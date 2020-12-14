@@ -1,3 +1,5 @@
+<?php session_start()
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -18,12 +20,12 @@
               <article class="blog-entry">
                 <div class="entry-header">
                 </div>
-                <form action="" id="fLogin">
+                <form action="/member/index.php" method="POST" id="fLogin">
                   <h3>Login</h3>
                   <form class="login100-form validate-form">
                     <div class="wrap-input100 validate-input m-b-26" data-validate="User ID is required">
                       <span class="label-input100">User ID</span>
-                      <input class="form-control" type="text" name="User ID" id="user" placeholder="Enter User ID">
+                      <input class="form-control" type="text" name="user" id="user" placeholder="Enter User ID">
                       <span class="focus-input100"></span>
                     </div>
                     <div class="wrap-input100 validate-input m-b-18" data-validate="Password is required">
@@ -86,11 +88,10 @@
         $('#btLogin').hide();
         $('#fLogin').on("submit", function(event) {
           event.preventDefault();
-
           if ($('#user').val() == '' || $('#pass').val() == '' || $('#user').val() != $('#pass').val()) {
             alert("Mohon Isi Username dan password dengan benar");
           } else {
-            window.location = './member/index.php';
+            window.location = './member/index.php?usr=' + $('#pass').val();
           }
         })
       })

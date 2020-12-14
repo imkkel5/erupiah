@@ -23,7 +23,7 @@
                             <a href="./components.php" class="btn btn-default navbar-btn" title="">Components</a>
                         </p>
                     </li>
-                    <li><a href="../Login-Form.php" title="">Logout</a></li>
+                    <li><a href="logout.php" title="">Logout</a></li>
 
                 </ul>
             </div>
