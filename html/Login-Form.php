@@ -171,7 +171,16 @@
     <script>
     var forgotPass = document.getElementById("forgotPass");
     forgotPass.onclick = function() {
+      alert("oke");
       forgotPassword.style.display = "block";
+      $('#formEmailRec').on("submit", function(event) {
+          if ($('#email').val() == '') {
+            alert("Mohon Isi Email yang pernah terdaftar");
+          } else {
+            val getEmail = $('#email').val();
+            alert("Link mengganti password telah di kirimken ke email anda. Silakan Cek");
+          }
+        })
     }
 
     </script>
