@@ -101,7 +101,7 @@ session_start();
             <a href="#" class="btn btn-info btn-lg" style="background-color:transparent; border-color:transparent;" id="laporan" title="Laporan rincian lalu lintas Uang anda"><img src="./assets/images/topup.png" height="35" />History</a>
             <a href="#" class="btn btn-info btn-lg" style="background-color:transparent; border-color:transparent;" id="pay" title="Bayar tagihan PLN"><img src="./assets/images/pln.png" height="35" />PLN</a>
             <a href="#" class="btn btn-info btn-lg" style="background-color:transparent; border-color:transparent;" id="pulsa" title="Isi Pulsa menggukan Fitur ini"><img src="./assets/images/pulsa.png" height="35" />Pulsa</a>
-            <a href="#" class="btn btn-info btn-lg" style="background-color:transparent; border-color:transparent;" id="tokPed" title="Top Up Saldo Dompet Tokopedia"><img src="./assets/images/tokopedia.png" height="35" />Tokopedia</a>
+            <a href="#" class="btn btn-info btn-lg" style="background-color:transparent; border-color:transparent;" id="tokPed" title="Top Up Saldo Dompet Tokopedia"><img src="./assets/images/tokped.jpg" height="35" />Tokopedia</a>
             <a href="#" class="btn btn-info btn-lg" style="background-color:transparent; border-color:transparent;" id="shopee" title="Top Up Saldo Dompet Shopee"><img src="./assets/images/shopee.png" height="35" />Shopee</a>
           </div>
         </div>

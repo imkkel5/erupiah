@@ -17,10 +17,10 @@
             <div class="collapse navbar-collapse" id="navbar-collapse">
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="./index.php" title="">Home</a></li>
-                    <li><a href="./project.php" title="">Project</a></li>
+                    
                     <li>
                         <p>
-                            <a href="./components.php" class="btn btn-default navbar-btn" title="">Components</a>
+                            
                         </p>
                     </li>
                     <li><a href="logout.php" title="">Logout</a></li>
