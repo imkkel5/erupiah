@@ -98,7 +98,7 @@ session_start();
           <div>
             <a href="#" class="btn btn-info btn-lg" style="background-color:transparent; border-color:transparent;" id="topUp" title="Menambah Saldo"><img src="./assets/images/topup.png" height="35" />Top Up</a>
             <a href="#" class="btn btn-info btn-lg" style="background-color:transparent; border-color:transparent;" id="tf" title="Transfer Ke Akun Lain"><img src="./assets/images/transfer.png" height="35" />Transfer</a>
-            <a href="#" class="btn btn-info btn-lg" style="background-color:transparent; border-color:transparent;" id="laporan" title="Laporan rincian lalu lintas Uang anda"><img src="./assets/images/topup.png" height="35" />History</a>
+            <a href="#" class="btn btn-info btn-lg" style="background-color:transparent; border-color:transparent;" id="laporan" title="Laporan rincian lalu lintas Uang anda"><img src="./assets/images/History.png" height="35" />History</a>
             <a href="#" class="btn btn-info btn-lg" style="background-color:transparent; border-color:transparent;" id="pay" title="Bayar tagihan PLN"><img src="./assets/images/pln.png" height="35" />PLN</a>
             <a href="#" class="btn btn-info btn-lg" style="background-color:transparent; border-color:transparent;" id="pulsa" title="Isi Pulsa menggukan Fitur ini"><img src="./assets/images/pulsa.png" height="35" />Pulsa</a>
             <a href="#" class="btn btn-info btn-lg" style="background-color:transparent; border-color:transparent;" id="tokPed" title="Top Up Saldo Dompet Tokopedia"><img src="./assets/images/tokped.jpg" height="35" />Tokopedia</a>
