@@ -106,7 +106,7 @@
                         <!-- <a href="#"  class="txt1" id="forgotPass1" >
                           Forgot Password?
                         </a> -->
-                        <p>Forgot Password Service : <i>imkkelompok55@gmail.com</i></p>
+                        
                       </div>
                     </div>
 
